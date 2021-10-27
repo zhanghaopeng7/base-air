@@ -1,0 +1,349 @@
+body{
+	/*background-color: white;*/
+	font-family: "微软雅黑","Microsoft YaHei";
+}
+
+.router-link-active{
+	color:#007aff;
+}
+#tmpl{
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+*{
+	-webkit-overflow-scrolling: touch
+}
+li, ol, ul {
+	list-style: none;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+}
+table td, table th {
+	border: 0;
+}
+img {
+	-ms-interpolation-mode: bicubic;
+	/*vertical-align: middle;*/
+}
+i,em{
+	font-style: normal;
+}
+b{
+	font-weight: normal;
+}
+b.btnBg{
+	border-radius:50%;
+	padding:0.15rem;
+	background-color:rgba(105, 105, 105, 0.5);
+	/*background: rgba(255,255,255,0.55);*/
+}
+/*input::-webkit-input-placeholder { /!* WebKit browsers *!/*/
+	/*font-size:14px;*/
+	/*color:#bbb;*/
+	/*font-weight: normal;*/
+/*}*/
+/*input:-moz-placeholder { /!* Mozilla Firefox 4 to 18 *!/*/
+	/*font-size:14px;*/
+	/*color:#bbb;*/
+	/*font-weight: normal;*/
+/*}*/
+/*input::-moz-placeholder { /!* Mozilla Firefox 19+ *!/*/
+	/*font-size:14px;*/
+	/*color:#bbb;*/
+	/*font-weight: normal;*/
+/*}*/
+/*input:-ms-input-placeholder { /!* Internet Explorer 10+ *!/*/
+	/*font-size:14px;*/
+	/*color:#bbb;*/
+	/*font-weight: normal;*/
+/*}*/
+
+.mg-r-10{
+	margin-right: 10px;
+}
+.mg-l-10{
+	margin-left: 10px;
+}
+
+/*盒模型设置*/
+.none {
+	display: none;
+}
+.block {
+	display: block;
+}
+.flexColumn{
+	display:flex;
+	flex-direction: column;
+}
+.flexSB{
+	/*项目主轴两侧间隔相等*/
+	display:flex;
+	justify-content:space-between;
+}
+
+.flexStartStart{
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+.flexStartCenter{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.flexCenter{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.col-xs-6 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+.flexStartEnd{
+	display:flex;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.flexSA{
+	/*项目主轴两侧间隔相等*/
+	display:flex;
+	justify-content:space-around;
+}
+.flexAlignC{
+	/*项目交叉轴垂直居中*/
+	display:flex;
+	align-items:center;
+}
+.flexAlignEnd{
+	/*项目交叉轴垂直居中*/
+	display:flex;
+	align-items:end;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.absolute{
+	position:absolute;
+}
+.relative{
+	position:relative;
+}
+.fixed{
+	position:fixed;
+}
+/*背景属性设置*/
+.bgColorW {
+	background: #fff;
+}
+.bgColorDE {
+	 background: #ddddde;
+
+ }
+.bgColorDC {
+	background: #dcdcdd;
+
+}
+.bgColorB {
+	background: #000;
+}
+.bgColor5C{
+	background: #5c5b60;
+}
+.bgColorE {
+	background: #eeefef;
+}
+.bgColorEEE {
+	background: #eee;
+}
+.bgColorEEF {
+	 background: #eeeeef;
+ }
+/*border设置*/
+.borderBottom1{
+	border-bottom:1px #eeefef solid;
+}
+.borderBottom3{
+	border-bottom:3px #eeefef solid;
+}
+.borderBottomF0 {
+	border-bottom: 1px solid #f0f0f0;
+}
+.width100 {
+	width: 100%;
+}
+.height100{
+	min-height:100vh;
+}
+/*字体大小样式*/
+.font03 {
+	font-size: 0.3rem;
+}
+.font035 {
+	font-size: 0.35rem;
+}
+.font04 {
+	font-size: 0.4rem;
+}
+.font05 {
+	font-size: 0.6rem;
+	transform: scale(0.8);
+}
+
+.font06 {
+	font-size: 0.6rem;
+}
+.font065 {
+	font-size: 0.65rem;
+}
+.font07 {
+	font-size: 0.7rem;
+}
+.font075 {
+	font-size: 0.75rem;
+}
+.font08 {
+	font-size: 0.8rem;
+}
+.font085 {
+	font-size: 0.85rem;
+}
+.font09 {
+	font-size: 0.9rem;
+}
+.font1 {
+	font-size: 1rem;
+}
+.font12 {
+	font-size: 1.2rem;
+}
+.font13 {
+	font-size: 1.3rem;
+}
+.font20 {
+	font-size: 2rem;
+}
+/*字体粗细设置*/
+.weight5{
+	font-weight: 500;
+}
+.weight6{
+	font-weight: 600;
+}
+.weight7{
+	font-weight: 700;
+}
+/*字体颜色设置*/
+.colorB {
+	color: #000;
+}
+.colorW {
+	color: #fff;
+}
+.colorbbb{
+	color:#bbb;
+}
+ .colorAAA{
+	color:#aaa;
+}
+.color717{
+	color:#717071;
+}
+.colorRed
+{
+   color:#ff0000;
+}
+.colorE56
+{
+    color:#e56a69
+}
+.colorOrange
+{
+	color:#ff935e
+}
+.colorQing
+{
+	color:#3cc3d6
+}
+.colorGreen
+{
+	color:#14ba8a;
+}
+/*字体属性设置*/
+.textCenter {
+	text-align: center;
+}
+.textLeft {
+	text-align: left;
+}
+.textBottom {
+	vertical-align: bottom;
+}
+.textMiddle {
+	vertical-align: middle;
+}
+
+.textBold {
+	font-weight: bold;
+}
+.mu-table th.logThStyle{
+	font-size:1.2rem;
+	color:#7B7B7B;
+	font-weight: bolder;
+	background:#FCFCFC;
+}
+.oc_mask.showmask {
+	opacity: 1;
+	max-height: 100vh;
+	transition: opacity .3s ease 0s,max-height 0s linear 0s;
+	z-index:100;
+}
+.oc_mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	background-color: rgba(0,0,0,.2);
+	z-index: 888;
+	max-height: 0;
+	opacity: 0;
+	transition: opacity .3s ease 0s,max-height 0s linear .5s;
+}
+.sku_dialog{
+	height:0rem;
+	max-height: 0;
+	opacity: 0;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.showmask~.sku_dialog{
+	opacity: 1;
+	height:80vh;
+	max-height: 80vh;
+	background-color:#f1f5ff;
+	visibility: visible;
+	transition: opacity .2s ease 0s,max-height .2s linear 0s,visibility 0s ease 0s;
+	z-index:101;
+}
+
+
+
+
+
